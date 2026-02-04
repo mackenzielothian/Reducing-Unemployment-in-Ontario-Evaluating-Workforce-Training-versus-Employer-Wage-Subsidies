@@ -9,9 +9,13 @@ Ontario's choice between employer wage subsidies and workforce training programs
 Currently, Employment Ontario (EO), a network that provides training, apprenticeship support, and employment services, administers a number of programs as part of Ontario's labour market strategies. With significant financing targeted at industries like manufacturing, healthcare, and construction, the Skills Development Fund (SDF) promotes workforce development and upskilling efforts. A sustained commitment to training and skill development is seen in the expansion of SDF through multi-hundred-million dollar financing rounds (Published Plans and Annual Reports 2025–2026: Ministry of Labour, Immigration, Training and Skills Development, 2025). 
 Another important initiative is Better Jobs Ontario (BJO), which offers financial assistance to jobless people seeking training for in-demand professions, assisting in removing obstacles such living expenses and tuition (Better Jobs Ontario - MTW Employment Services, 2024). In order to encourage firms to hire and train qualified job seekers, Ontario also provides employer pay subsidies and incentives through a number of programs, which helps defray hiring expenses (Better Jobs Ontario - MTW Employment Services, 2024).  
 Despite these initiatives, unemployment is still high in comparison to historical norms and national statistics, indicating that it is still unclear how to strike a balance between short-term hiring incentives and longer-term training expenditures. Making a more thoughtful choice about which of these measures to prioritize could help guarantee that public funding successfully lower unemployment and promote economic resilience.
+
 Work cited
 Better Jobs Ontario - MTW Employment Services. (2024, February 5). MTW Employment Services. https://www.mtwjobassist.ca/funding-programs/better-jobs-ontario/
 
 Government Of Canada, Statistics Canada. (2026, January 9). Unemployment rate by province and territory, December 2025. https://www150.statcan.gc.ca/n1/daily-quotidien/260109/mc-a001-eng.htm
 
 Published plans and annual reports 2025–2026: Ministry of Labour, Immigration, Training and Skills Development. (2025, December 12). ontario.ca. https://www.ontario.ca/page/published-plans-and-annual-reports-2025-2026-ministry-labour-immigration-training-and-skills development#:~:text=In%202025%2D2026%2C%20the%20ministry,opportunities%20and%20programs%20for%20Black%2C
+
+<img width="485" height="289" alt="Causal Loop Diagram" src="https://github.com/user-attachments/assets/23729803-1288-4487-a3e9-24020e685e71" />
+ 
