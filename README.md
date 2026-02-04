@@ -11,6 +11,7 @@ Another important initiative is Better Jobs Ontario (BJO), which offers financia
 Despite these initiatives, unemployment is still high in comparison to historical norms and national statistics, indicating that it is still unclear how to strike a balance between short-term hiring incentives and longer-term training expenditures. Making a more thoughtful choice about which of these measures to prioritize could help guarantee that public funding successfully lower unemployment and promote economic resilience.
 
 Work cited
+
 Better Jobs Ontario - MTW Employment Services. (2024, February 5). MTW Employment Services. https://www.mtwjobassist.ca/funding-programs/better-jobs-ontario/
 
 Government Of Canada, Statistics Canada. (2026, January 9). Unemployment rate by province and territory, December 2025. https://www150.statcan.gc.ca/n1/daily-quotidien/260109/mc-a001-eng.htm
@@ -18,4 +19,4 @@ Government Of Canada, Statistics Canada. (2026, January 9). Unemployment rate by
 Published plans and annual reports 2025–2026: Ministry of Labour, Immigration, Training and Skills Development. (2025, December 12). ontario.ca. https://www.ontario.ca/page/published-plans-and-annual-reports-2025-2026-ministry-labour-immigration-training-and-skills development#:~:text=In%202025%2D2026%2C%20the%20ministry,opportunities%20and%20programs%20for%20Black%2C
 
 <img width="485" height="289" alt="Causal Loop Diagram" src="https://github.com/user-attachments/assets/23729803-1288-4487-a3e9-24020e685e71" />
- 
+In contrast to a balancing loop where wage subsidies temporarily lower unemployment by lowering employer recruiting costs, the draft CLD stresses a reinforcing loop that links workforce training, skill matching, and sustained employment. A fiscal constraint loop highlights the significance of strategic prioritization by demonstrating how high unemployment might restrict the government's ability to finance either measure.
