@@ -1,6 +1,7 @@
 # Reducing-Unemployment-in-Ontario-Evaluating-Workforce-Training-versus-Employer-Wage-Subsidies
+## Decision Statement 
 Should the Ontario Deputy Minister of Labour, Immigration, Training and Skills Development prioritize funding for targeted workforce training programs or employer wage subsidies to reduce Ontario’s provincial unemployment rate over the next 12–24 months?
-
+## Executive Summary
 In recent months, Ontario's unemployment rate has consistently above the national average; in December 2025, provincial statistics were close to 7.9% (Government of Canada, Statistics Canada, 2026). The average for Canada is almost 6.8%, which is higher than this figure (Government of Canada, Statistics Canada, 2026). For Ontario, the largest province in Canada in terms of both population and economic output, high unemployment has significant economic and social repercussions. High unemployment raises the need for social assistance programs, lowers provincial tax receipts, and can impede economic growth by reducing workforce productivity and consumer expenditure. Additionally, it puts more financial strain on provincial governments at a time when infrastructure and health care costs are on the rise.
 Effective labour market policies impact people's livelihoods, regional economic competitiveness, and provincial resilience to shocks at the national and international levels, making them more than merely technical decisions for policymakers like the Deputy Minister of labour, Immigration, Training, and Skills Development. This choice is significant because it influences the distribution of scarce public monies in a way that will minimize unemployment and promote long-term economic growth.
 A trade-off between immediate and long-term impacts is the basis of the choice. By cutting expenses for companies, policies like wage subsidies for employers may encourage hiring rapidly and assist minimize unemployment in the short term. Wage subsidies, however, run the danger of subsidizing jobs that would have existed otherwise and may only offer short-term incentives, decreasing cost-effectiveness. Targeted workforce training initiatives, on the other hand, seek to enhance workers' abilities and align them with changing labour market demands, potentially lowering structural unemployment. However, training is time-consuming, and the advantages might not materialize in a short period of time. It is difficult to strike a balance between these trade-offs because both strategies need substantial investment, and resource misallocation might reduce efficacy or unjustly favour some industries.
@@ -10,7 +11,7 @@ Currently, Employment Ontario (EO), a network that provides training, apprentice
 Another important initiative is Better Jobs Ontario (BJO), which offers financial assistance to jobless people seeking training for in-demand professions, assisting in removing obstacles such living expenses and tuition (Better Jobs Ontario - MTW Employment Services, 2024). In order to encourage firms to hire and train qualified job seekers, Ontario also provides employer pay subsidies and incentives through a number of programs, which helps defray hiring expenses (Better Jobs Ontario - MTW Employment Services, 2024).  
 Despite these initiatives, unemployment is still high in comparison to historical norms and national statistics, indicating that it is still unclear how to strike a balance between short-term hiring incentives and longer-term training expenditures. Making a more thoughtful choice about which of these measures to prioritize could help guarantee that public funding successfully lower unemployment and promote economic resilience.
 
-Work cited
+## Work Cited 
 
 Better Jobs Ontario - MTW Employment Services. (2024, February 5). MTW Employment Services. https://www.mtwjobassist.ca/funding-programs/better-jobs-ontario/
 
@@ -18,6 +19,8 @@ Government Of Canada, Statistics Canada. (2026, January 9). Unemployment rate by
 
 Published plans and annual reports 2025–2026: Ministry of Labour, Immigration, Training and Skills Development. (2025, December 12). ontario.ca. https://www.ontario.ca/page/published-plans-and-annual-reports-2025-2026-ministry-labour-immigration-training-and-skills development#:~:text=In%202025%2D2026%2C%20the%20ministry,opportunities%20and%20programs%20for%20Black%2C
 
+## Casual Loop Diagram 
 <img width="485" height="289" alt="Causal Loop Diagram" src="https://github.com/user-attachments/assets/23729803-1288-4487-a3e9-24020e685e71" />
 
+## Explanation of CLD
 In contrast to a balancing loop where wage subsidies temporarily lower unemployment by lowering employer recruiting costs, the draft CLD stresses a reinforcing loop that links workforce training, skill matching, and sustained employment. A fiscal constraint loop highlights the significance of strategic prioritization by demonstrating how high unemployment might restrict the government's ability to finance either measure.
