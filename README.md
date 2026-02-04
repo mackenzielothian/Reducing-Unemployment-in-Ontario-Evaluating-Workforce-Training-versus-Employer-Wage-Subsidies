@@ -19,4 +19,5 @@ Government Of Canada, Statistics Canada. (2026, January 9). Unemployment rate by
 Published plans and annual reports 2025–2026: Ministry of Labour, Immigration, Training and Skills Development. (2025, December 12). ontario.ca. https://www.ontario.ca/page/published-plans-and-annual-reports-2025-2026-ministry-labour-immigration-training-and-skills development#:~:text=In%202025%2D2026%2C%20the%20ministry,opportunities%20and%20programs%20for%20Black%2C
 
 <img width="485" height="289" alt="Causal Loop Diagram" src="https://github.com/user-attachments/assets/23729803-1288-4487-a3e9-24020e685e71" />
+
 In contrast to a balancing loop where wage subsidies temporarily lower unemployment by lowering employer recruiting costs, the draft CLD stresses a reinforcing loop that links workforce training, skill matching, and sustained employment. A fiscal constraint loop highlights the significance of strategic prioritization by demonstrating how high unemployment might restrict the government's ability to finance either measure.
