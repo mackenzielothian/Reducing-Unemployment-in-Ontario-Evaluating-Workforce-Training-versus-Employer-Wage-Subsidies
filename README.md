@@ -14,6 +14,8 @@ Wage subsidies enable rapid hiring by reducing business costs but risk subsidizi
 
 Key stakeholders include unemployed workers, employers facing labour shortages, training providers, and provincial taxpayers. Despite existing initiatives like Employment Ontario and the Skills Development Fund, persistently high unemployment indicates current approaches need recalibration to effectively balance immediate relief with long-term economic resilience.
 
+[Read More](background.md)
+
 ## Casual Loop Diagram 
 <img width="485" height="289" alt="Causal Loop Diagram" src="img/cld.png" />
 
