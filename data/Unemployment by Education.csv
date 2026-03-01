@@ -1,0 +1,46 @@
+﻿"Unemployment rate, participation rate and employment rate by educational attainment, annual 1 2"
+"Frequency: Annual"
+"Table: 14-10-0020-01 (formerly CANSIM 282-0004)"
+"Release date: 2026-01-09"
+"Geography: Canada, Province or territory"
+""
+""
+
+"Geography 3","Canada",,,,
+"Labour force characteristics","Unemployment rate 6",,,,
+"Gender 4 5","Total - Gender",,,,
+"Age group","25 years and over",,,,
+"Educational attainment 7","2021","2022","2023","2024","2025"
+,"Percent",,,,
+"Total, all education levels","6.6","4.5","4.5","5.3","5.7"
+"0 to 8  years 8","10.7","8.2","8.4","10.4","9.8"
+"Some high school 9","10.9","8.5","7.9","8.6","9.2"
+"High school graduate 10","8.4","5.6","5.6","6.3","6.9"
+"Some postsecondary 11","9.4","5.6","5.5","6.7","7.3"
+"Postsecondary certificate or diploma 12","6.6","4.2","4.1","4.7","5.2"
+"University degree 13","4.8","3.7","3.9","4.7","5.0"
+"Bachelor's degree","5.0","3.8","4.0","4.8","5.0"
+"Above bachelor's degree","4.5","3.5","3.8","4.7","4.9"
+
+
+
+
+Footnotes:
+1,"To ensure respondent confidentiality, estimates below a certain threshold are suppressed. For Canada, Quebec, Ontario, Alberta and British Columbia suppression is applied to all data below 1,500. The threshold level for Newfoundland and Labrador, Nova Scotia, New Brunswick, Manitoba and Saskatchewan is 500, while in Prince Edward Island, estimates under 200 are suppressed. For census metropolitan areas (CMAs) and economic regions (ERs), use their respective provincial suppression levels mentioned above. Estimates are based on smaller sample sizes the more detailed the table becomes, which could result in lower data quality."
+2,"Starting in 2006, enhancements to the Labour Force Survey data processing system may have introduced a level shift in some estimates, particularly for less common labour force characteristics. Use caution when comparing estimates before and after 2006. For more information, contact statcan.labour-travail.statcan@statcan.gc.ca"
+3,"Excluding the territories."
+4,"Gender refers to an individual's personal and social identity as a man, woman or non-binary person (a person who is not exclusively a man or a woman). Some people may not identify with a specific gender and a person's gender may change over time. Gender includes the following concepts: gender identity, which refers to the gender that a person feels internally and individually; gender expression, which refers to the way a person presents their gender, regardless of their gender identity, through body language, aesthetic choices or accessories (for example, clothes, hairstyle and makeup), which may have traditionally been associated with a specific gender. A person's gender may differ from their sex at birth, and from what is indicated on their current identification or legal documents such as their birth certificate, passport or driver's license. LFS started collecting gender of person in 2022. Prior to 2022, LFS only collected information on sex of person (male or female), as declared by the respondent or recorded by the interviewer. The sex variable prior to 2022 and the two-category gender variable since 2022 are combined in this table. Although sex and gender refer to two different concepts, the introduction of gender is not expected to have a significant impact on data analysis and historical comparability, given the small size of the transgender and non-binary populations."
+5,"Given that the non-binary population is small, data aggregation to a two-category gender variable is necessary to protect the confidentiality of responses provided. Individuals in the category “non-binary persons” are distributed into the other two gender categories and are denoted by the “+” symbol. The category “Men+” includes men, as well as some non-binary persons, while the category “Women+” includes women, as well as some non-binary persons."
+6,"The unemployment rate is the number of unemployed persons expressed as a percentage of the labour force. The unemployment rate for a particular group (age, gender, marital status, etcetera) is the number unemployed in that group expressed as a percentage of the labour force for that group. Estimates are percentages, rounded to the nearest tenth."
+7,"The following categories refer to the highest level of schooling completed. Questions relating to educational attainment were changed in 1990, to better capture the relationship between educational attainment and labour market outcomes. Because this introduced a break in the education series, this table only contains data from 1990 onwards. Beginning January 1990, data on primary and secondary education reflects the highest grade completed. This provides a more consistent measure for those who accelerate or fail a grade than did years of school. A question on high school graduation has also been added since it is generally believed that persons who have never completed their secondary education have greater difficulty competing in the labour market. With the new questions, any education that could be counted towards a degree, certificate or diploma from an educational institution is taken as postsecondary education. The change allows more persons into the postsecondary education category. For example, trades programs offered through apprenticeship, vocational schools or private trade schools do not always require high school graduation. Such education is now considered as postsecondary while only primary or secondary would have been recognized prior to 1990. Finally, more information is collected on the type of postsecondary education: 1) some postsecondary; 2) trades certificate or diploma from a vocational or apprenticeship training; 3) non-university certificate or diploma from a community college, CEGEP or school of nursing; 4) university certificate below bachelors degree; 5) bachelors degree; and 6) university degree or certificate above bachelors degree."
+8,"Primary education, grade 8 or lower. In Quebec, secondary II or lower."
+9,"Attended but did not complete secondary school. In Quebec, attended at least Secondary III but did not complete Secondary V. In Newfoundland and Labrador, attended at least the first year of secondary but did not complete the fourth year."
+10,"Received a high school diploma. In Quebec, completed Secondary V. In Newfoundland and Labrador, completed fourth year of secondary."
+11,"Worked toward, but did not complete, a degree, certificate (including a trade certificate) or diploma from an educational institution, including a university, beyond the secondary level. This includes vocational schools, apprenticeship training, community college, Collège d'Enseignement Général et Professionnel (CEGEP), and school of nursing."
+12,"Completed a certificate (including a trade certificate) or diploma from an educational institution beyond the secondary level. This includes certificates from vocational schools, apprenticeship training, community college, Collège d'Enseignement Général et Professionnel (CEGEP), and school of nursing. Also included are certificates below a Bachelor's degree obtained at a university."
+13,"Attained at least a university bachelor's degree."
+
+
+
+"How to cite: Statistics Canada. Table 14-10-0020-01  Unemployment rate, participation rate and employment rate by educational attainment, annual"
+https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1410002001
