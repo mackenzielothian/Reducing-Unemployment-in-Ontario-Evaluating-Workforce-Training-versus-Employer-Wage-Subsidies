@@ -17,6 +17,8 @@ Key stakeholders include unemployed workers, employers facing labour shortages, 
 ## Table of Contents 
 [Read More](background.md)
 [Read More](Wrangling.md )
+[Read More](data )
+[Read More](img )
 
 ## Data Sources 
 1. Ontario Unemployment Dataset (ON_Unemployment.csv)
