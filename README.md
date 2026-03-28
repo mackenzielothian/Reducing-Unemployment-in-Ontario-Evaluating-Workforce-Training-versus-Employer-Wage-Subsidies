@@ -65,6 +65,15 @@ Further analysis could be strengthened by more detailed, sector-specific data on
 In conclusion, prioritizing workforce training but still maintaining targeted use of wage subsidies gives the opportunity for the most effective and sustainable strategy for reducing unemployment and supporting long-term economic resilience in Ontario.
 
 ## References 
+Government of Canada, Statistics Canada. (2026, February 6). Labour force characteristics by province, monthly, seasonally adjusted. https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1410028703
+
+Government of Canada, Statistics Canada. (2026a, January 9). Unemployment rate, participation rate and employment rate by educational attainment, annual. https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1410002001 
+
+Government of Canada, Statistics Canada. (2026a, January 9). Labour force characteristics by industry, annual. https://www150.statcan.gc.ca/t1/tbl1/en/tv.action pid=1410002301&pickMembers%5B0%5D=1.1&pickMembers%5B1%5D=2.5&pickMembers%5B2%5D=4.1&pickMembers%5B3%5D=5.1&cubeTimeFrame.startYear=2021&cubeTimeFrame.endYear=2025&referencePeriods=20210101%2C20250101
+
+Government of Canada, Statistics Canada. (2026d, February 6). Duration of unemployment, monthly, seasonally adjusted. https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1410034201
+
+Government of Canada, Statistics Canada. (2023, December 18). Job vacancies, payroll employees, job vacancy rate, and average offered hourly wage by provinces and territories, quarterly, unadjusted for seasonality, inactive. https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1410032501
 
 ## Reflection 
 This project strengthened my ability to think beyond surface-level problems and understand how complex systems influence real-world decisions. One of the most surprising insights was how short-term solutions, such as wage subsidies, can unintentionally weaken long-term outcomes if they are overused. Initially, I assumed that reducing unemployment quickly would always be the most effective approach, but this project highlighted the importance of addressing root causes, such as job-skill mismatch, to achieve sustainable results. I also developed skills in systems thinking, data interpretation, and policy analysis. Creating the causal loop diagram helped me visualize how different variables interact and reinforced the importance of feedback loops in shaping outcomes. Additionally, translating technical concepts into clear, accessible language improved my ability to communicate complex ideas to non-technical audiences. This can be an essential skill in both business and policy environments. If I were to approach this project again, I would incorporate more detailed quantitative data to strengthen scenario projections and support recommendations further. Overall, this project enhanced my ability to connect data, theory, and decision-making in a practical and meaningful way.
