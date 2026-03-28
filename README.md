@@ -47,15 +47,19 @@ This visualization shows job vacancy rates across different quarters and reveals
 <img width="925" height="212" alt="  viz4" src="https://github.com/user-attachments/assets/9047c142-888f-46a7-92e9-c9843004a916" />
 
 ## Casual Loop Diagram 
-<img width="485" height="289" alt="Causal Loop Diagram" src="img/cld.png" />
-
+<img width="617" height="291" alt="cld-final" src="https://github.com/user-attachments/assets/69057a9a-d037-4276-a7d9-0e6baa08c695" />
 
 ## Explanation of CLD
 The causal loop diagram (CLD) highlights two key feedback loops influencing unemployment in Ontario: a balancing loop (B1) driven by wage subsidies and a reinforcing loop (R1) driven by workforce training and skill development. 
+
 The B1: Short-Term Hiring (Balancing Loop) shows that increasing employer wage subsidies reduces employer costs, leading to higher hiring rates and increased employment. However, this effect is temporary. Evidence from Visual 1 (Unemployment Rate Trends by Education Level, 2021–2025) supports this relationship. The data shows unemployment decreasing from approximately 60 in 2021 to 43 in 2022–2023, followed by an increase to about 53 by 2025. This pattern suggests that while short-term interventions can reduce unemployment initially, the effect is not sustained over time. This supports the balancing nature of the loop, where the system stabilizes rather than improves long term.
+
 In contrast, the R1: Skills & Employment (Reinforcing Loop) demonstrates how training funding improves worker skill levels, which increases employment and further strengthens labour market outcomes. This relationship is strongly supported by Visual 2 (Unemployment Rate by Education Level). The data shows that individuals with lower education levels (e.g., “0 to 8 years”) have significantly higher unemployment (approximately 47–48) compared to those with higher education (e.g., university degree at approximately 22). This clear gap supports the positive causal link between skill level and employment, showing that higher skills lead to lower unemployment.
+
 A third key causal relationship in the diagram is between skill match and employment outcomes. Evidence from Visual 4 (Job Vacancy Rate by Quarter) shows that job vacancy rates remain relatively high (ranging from approximately 4.0 to 5.5) even when unemployment persists. For example, vacancies peak around 5.4, while unemployment remains elevated. This supports the negative relationship between skill mismatch and employment, indicating that jobs are available, but workers may not have the required skills. This strengthens the argument that improving skill match is critical to reducing unemployment.
+
 Finally, Visual 3 (Unemployment Distribution by Industry) provides additional support for targeted intervention. The data shows that unemployment is concentrated in specific sectors such as construction, manufacturing, and accommodation and food services. This supports the causal link between industry conditions and unemployment, reinforcing that training programs should be aligned with high-demand sectors rather than applied broadly.
+
 Overall, the CLD demonstrates that wage subsidies create a short-term balancing effect, while workforce training generates a long-term reinforcing cycle by improving skill levels and labour market alignment. The key leverage point in the system is aligning training with labour demand, as supported by the observed mismatch between job vacancies and unemployment in the data. Therefore, the evidence supports prioritizing targeted workforce training programs over wage subsidies to achieve sustained reductions in unemployment.
 
 ## System Archetype Identification
