@@ -16,6 +16,9 @@ Key stakeholders include unemployed workers, employers facing labour shortages, 
 
 ## Table of Contents 
 [Read More](background.md)
+[Read More](Wrangling.md )
+[Read More](data )
+[Read More](img )
 
 ## Data Sources 
 1. Ontario Unemployment Dataset (ON_Unemployment.csv)
@@ -29,12 +32,38 @@ This dataset measures labour force participation, including the proportion of in
 5. Duration Dataset (Duration.csv)
 This dataset captures the length of time individuals remain unemployed, distinguishing between short-term and long-term unemployment. It helps assess the severity and persistence of unemployment within the labour market. Longer durations of unemployment often indicate structural issues, such as skill mismatches, making this dataset particularly valuable for evaluating the need for workforce training interventions.
 
-## Casual Loop Diagram 
-<img width="485" height="289" alt="Causal Loop Diagram" src="img/cld.png" />
+## Exploratory Data Analysis
+Visual 1: Unemployment Rate Trends by Education Level (2021–2025)
+This visualization shows how unemployment rates have changed over time across different education levels. The trend indicates that unemployment decreased after 2021 but has gradually risen again from 2023 to 2025. This suggests that while short-term improvements may occur, they are not sustained over time. The fluctuation highlights that structural issues such as skills mismatches are not being fully addressed. This matters for the decision because wage subsidies may temporarily reduce unemployment (as seen in the initial drop), but they do not create long-term stability. In contrast, workforce training programs are more likely to address the root cause of unemployment by equipping individuals with relevant skills, leading to more sustained employment outcomes.
+<img width="1049" height="661" alt="  viz1 png  " src="https://github.com/user-attachments/assets/ad6ffc14-0447-4270-90a9-38a7c5e8fd47" />
 
+Visual 2: Unemployment Rate by Education Level
+This bar chart compares unemployment rates across different education levels and clearly shows that individuals with lower levels of education experience higher unemployment rates, while those with postsecondary or university education have lower rates. This reveals a strong relationship between education and employability. The implication is that unemployment in Ontario is not evenly distributed. Tt disproportionately affects those with fewer skills or qualifications. This is highly relevant to the decision because it supports investing in workforce training programs. Training directly targets the population most at risk by improving their qualifications, whereas wage subsidies do not address this underlying inequality and may simply provide temporary employment without improving long-term job prospects.
+<img width="599" height="666" alt="  viz2 png  " src="https://github.com/user-attachments/assets/ef87d7ee-c434-4590-a985-c32a00308bee" />
+
+Visual 3: Unemployment Distribution by Industry in Ontario (Thousands)
+This treemap illustrates how unemployment is distributed across different industries, with sectors like construction, manufacturing, and accommodation and food services showing higher concentrations of unemployment. This indicates that unemployment is also sector-specific, with certain industries experiencing more instability or labour market challenges. This matters because it suggests that a one-size-fits-all approach, such as broad wage subsidies, may not be effective. Instead, targeted workforce training programs can be tailored to industries with the highest unemployment, helping workers transition into in-demand roles. This makes training a more strategic and efficient use of resources for reducing unemployment in the long term.
+<img width="791" height="547" alt="  viz3 png  " src="https://github.com/user-attachments/assets/d64b54a5-2f33-4546-9c55-aaa66e420d64" />
+
+Visual 4: Job Vacancy Rate in Ontario by Quarter
+This visualization shows job vacancy rates across different quarters and reveals that there are still significant numbers of unfilled jobs despite ongoing unemployment. This highlights a key issue in the labour market: a mismatch between available jobs and the skills of unemployed workers. This is critical for the decision because it demonstrates that unemployment is not simply due to a lack of jobs, but rather a lack of alignment between worker skills and employer needs. Wage subsidies may encourage hiring in the short term, but they do not resolve this mismatch. Workforce training programs, however, can directly address this gap by preparing workers for the specific roles that are currently in demand, making them a more effective long-term solution.
+<img width="925" height="212" alt="  viz4" src="https://github.com/user-attachments/assets/9047c142-888f-46a7-92e9-c9843004a916" />
+
+## Casual Loop Diagram 
+<img width="617" height="291" alt="cld-final" src="https://github.com/user-attachments/assets/69057a9a-d037-4276-a7d9-0e6baa08c695" />
 
 ## Explanation of CLD
-In contrast to a balancing loop where wage subsidies temporarily lower unemployment by lowering employer recruiting costs, the draft CLD stresses a reinforcing loop that links workforce training, skill matching, and sustained employment. A fiscal constraint loop highlights the significance of strategic prioritization by demonstrating how high unemployment might restrict the government's ability to finance either measure.
+The causal loop diagram (CLD) highlights two key feedback loops influencing unemployment in Ontario: a balancing loop (B1) driven by wage subsidies and a reinforcing loop (R1) driven by workforce training and skill development. 
+
+The B1: Short-Term Hiring (Balancing Loop) shows that increasing employer wage subsidies reduces employer costs, leading to higher hiring rates and increased employment. However, this effect is temporary. Evidence from Visual 1 (Unemployment Rate Trends by Education Level, 2021–2025) supports this relationship. The data shows unemployment decreasing from approximately 60 in 2021 to 43 in 2022–2023, followed by an increase to about 53 by 2025. This pattern suggests that while short-term interventions can reduce unemployment initially, the effect is not sustained over time. This supports the balancing nature of the loop, where the system stabilizes rather than improves long term.
+
+In contrast, the R1: Skills & Employment (Reinforcing Loop) demonstrates how training funding improves worker skill levels, which increases employment and further strengthens labour market outcomes. This relationship is strongly supported by Visual 2 (Unemployment Rate by Education Level). The data shows that individuals with lower education levels (e.g., “0 to 8 years”) have significantly higher unemployment (approximately 47–48) compared to those with higher education (e.g., university degree at approximately 22). This clear gap supports the positive causal link between skill level and employment, showing that higher skills lead to lower unemployment.
+
+A third key causal relationship in the diagram is between skill match and employment outcomes. Evidence from Visual 4 (Job Vacancy Rate by Quarter) shows that job vacancy rates remain relatively high (ranging from approximately 4.0 to 5.5) even when unemployment persists. For example, vacancies peak around 5.4, while unemployment remains elevated. This supports the negative relationship between skill mismatch and employment, indicating that jobs are available, but workers may not have the required skills. This strengthens the argument that improving skill match is critical to reducing unemployment.
+
+Finally, Visual 3 (Unemployment Distribution by Industry) provides additional support for targeted intervention. The data shows that unemployment is concentrated in specific sectors such as construction, manufacturing, and accommodation and food services. This supports the causal link between industry conditions and unemployment, reinforcing that training programs should be aligned with high-demand sectors rather than applied broadly.
+
+Overall, the CLD demonstrates that wage subsidies create a short-term balancing effect, while workforce training generates a long-term reinforcing cycle by improving skill levels and labour market alignment. The key leverage point in the system is aligning training with labour demand, as supported by the observed mismatch between job vacancies and unemployment in the data. Therefore, the evidence supports prioritizing targeted workforce training programs over wage subsidies to achieve sustained reductions in unemployment.
 
 ## System Archetype Identification
 The Shifting the Burden archetype is evident in Ontario’s unemployment policy context, where decision-makers must balance short-term reductions in unemployment with long-term labour market improvements. In this system, reducing hiring expenses and promoting quicker job creation, employer wage subsidies provide a short-term "quick fix," creating a balanced loop that temporarily lowers unemployment. Although, this approach does not address the underlying issue of gap between job and skill, particularly within Ontario’s diverse and segmented labour market. The fundamental solution lies in targeted workforce training programs, such as the Skills Development Fund and Better Jobs Ontario. These can aim to improve worker skills and better align them with labour market demand. The programs create a reinforcing loop, where increased skills lead to better job matching, sustained employment, and long-term reductions in unemployment. However, depending too heavily on wage subsidies may eventually result in less money being invested in training programs. This might lead to a continuous cycle of skill shortages and high unemployment. Ultimately, the following system displays how short-term symptom relief undermines long-term capacity, reinforcing the Shifting the Burden archetype and limiting the effectiveness of policy interventions.
