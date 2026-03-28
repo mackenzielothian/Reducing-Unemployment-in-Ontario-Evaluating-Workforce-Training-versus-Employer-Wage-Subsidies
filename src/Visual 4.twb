@@ -1,0 +1,287 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20243.25.0208.0338                               -->
+<workbook original-version='18.1' source-build='2024.3.4 (20243.25.0208.0338)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Job Vacancies' inline='true' name='federated.0qxrw0q09urkyi10g7abi1a57rb8' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Job Vacancies' name='textscan.0bdscc01xckdax1d586j41ja92sn'>
+            <connection class='textscan' directory='C:/Users/x2023duw/Desktop' filename='Job Vacancies .csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.0bdscc01xckdax1d586j41ja92sn' name='Job Vacancies .csv' table='[Job Vacancies #csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='Quarter' ordinal='0' />
+            <column datatype='string' name='Province' ordinal='1' />
+            <column datatype='real' name='Job_Vacancy_Rate' ordinal='2' />
+            <column datatype='string' name='F4' ordinal='3' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Job Vacancies .csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Quarter</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Quarter]</local-name>
+            <parent-name>[Job Vacancies .csv]</parent-name>
+            <remote-alias>Quarter</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Job Vacancies .csv_612662B658EF457C8874E95D32024588]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Province</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Province]</local-name>
+            <parent-name>[Job Vacancies .csv]</parent-name>
+            <remote-alias>Province</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Job Vacancies .csv_612662B658EF457C8874E95D32024588]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Job_Vacancy_Rate</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Job_Vacancy_Rate]</local-name>
+            <parent-name>[Job Vacancies .csv]</parent-name>
+            <remote-alias>Job_Vacancy_Rate</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Job Vacancies .csv_612662B658EF457C8874E95D32024588]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F4</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F4]</local-name>
+            <parent-name>[Job Vacancies .csv]</parent-name>
+            <remote-alias>F4</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Job Vacancies .csv_612662B658EF457C8874E95D32024588]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Job Vacancy Rate' datatype='real' name='[Job_Vacancy_Rate]' role='measure' type='quantitative' />
+      <column datatype='string' name='[Province]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column caption='Unemployment Rate' datatype='real' name='[Unemployment_Rate]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+      <column caption='Job Vacancies .csv' datatype='table' name='[__tableau_internal_object_id__].[Job Vacancies .csv_612662B658EF457C8874E95D32024588]' role='measure' type='quantitative' />
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='Job Vacancies .csv' id='Job Vacancies .csv_612662B658EF457C8874E95D32024588'>
+            <properties context=''>
+              <relation connection='textscan.0bdscc01xckdax1d586j41ja92sn' name='Job Vacancies .csv' table='[Job Vacancies #csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='string' name='Quarter' ordinal='0' />
+                  <column datatype='string' name='Province' ordinal='1' />
+                  <column datatype='real' name='Job_Vacancy_Rate' ordinal='2' />
+                  <column datatype='string' name='F4' ordinal='3' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Job Vacancies' name='federated.0qxrw0q09urkyi10g7abi1a57rb8' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0qxrw0q09urkyi10g7abi1a57rb8'>
+            <column caption='Job Vacancy Rate' datatype='real' name='[Job_Vacancy_Rate]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Quarter]' role='dimension' type='nominal' />
+            <column-instance column='[Quarter]' derivation='None' name='[none:Quarter:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Job_Vacancy_Rate]' derivation='Sum' name='[sum:Job_Vacancy_Rate:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0qxrw0q09urkyi10g7abi1a57rb8].[none:Quarter:nk]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Quarter:nk]' />
+              <groupfilter function='member' level='[none:Quarter:nk]' member='%null%' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0qxrw0q09urkyi10g7abi1a57rb8].[none:Quarter:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.0qxrw0q09urkyi10g7abi1a57rb8].[none:Quarter:nk]</rows>
+        <cols>[federated.0qxrw0q09urkyi10g7abi1a57rb8].[sum:Job_Vacancy_Rate:qk]</cols>
+      </table>
+      <simple-id uuid='{5F146037-D0F7-4CD1-BF1C-E1B212CDBEBD}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0qxrw0q09urkyi10g7abi1a57rb8].[none:Education_Level:nk]</field>
+            <field>[federated.0qxrw0q09urkyi10g7abi1a57rb8].[none:Quarter:nk]</field>
+            <field>[federated.0qxrw0q09urkyi10g7abi1a57rb8].[none:Year:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{44CF10DC-B5A3-4383-A8C7-A7C12AE3A52A}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='179' name='Sheet 1' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAACzCAYAAADfahNoAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAAOqklEQVR4nO3df1DU953H8WfZohgVUSBE8dAEL0bRSOT8cQ4JvdicNyrXOIyJ5YIJiYcW
+      oiEml6S5XIrpmU5ap5kwZxxsgIsaqlZGIz86TqWFHnEKBsPV48c5otRRdE9QEGSRzZe9PxZl
+      d/m5CQuf5fN+/Mfud7+7fmdffj/f735f3893bDabDSE05TPaH0CI0SQBEFqTAAitSQCE1iQA
+      QmsSAKE1CYDQmgRAaE0CILQmARBakwAIrUkAhNYkAEJrEgChNQmA0JoEQGhNAiC0JgEQWpMA
+      CK1JAITWJABCaxIAoTUJgNCaBEBoTQIgtCYBEFqTAAitSQA8rL29fbQ/wpjS2to6rOuTAAit
+      SQCE1r472h9ABz94++BofwTRD9kDCK1JAITW1BwCGS3897G9HPzDeW5YfZkYtoLnX36WRVNM
+      3QtYuXH+FH8oLOWLtkd5/e1YZvS5mloKP93PydpGOvAjaNF6UjdFE2wCaONc7m52F12gw2ca
+      EetSSFk5E1P3+q/96QCZhyu4dNuK78S/5u+2bCHu4UlgqaNo30EKzl7ithV8J4ax4sVXiF8w
+      aYQ2jhhOCgbAoC53F79pXcPLu7YT6tfFjTMH+eXOHHx/lsB8E1BxgI++DOWZ555j3JE/97Me
+      MyeyCuiMSeaDlFD8um5QdSSd7OIFvLEyAEtFDvsalvPjj94kuL2W3PQMjoX/lLjZQOUB9lQ9
+      RMI7zzFnmg8dV0rI2H2U6vcTmH+rkTuLEkh7PhR/P+hoPM2+n2dzasdWVkwYua0khod6QyCj
+      kqKzkWx6aTmhfibAl2mLE0h+vJ6iMot9mahEdmz+eyKm+Q6woiBWbXuNuMWh2FczjYjHH2Ny
+      eztgoaK0iSfiY3jAF0xTHiFu3RzOltfZX7pwI+++FMOcab6ACb/QGP72ryxYAEKWsXp5GP5+
+      JvtzQUuIfNCC5Y7nNonwHPUCUF9H298sY7bLwzMee5S2uoturMiEyeTwp3Gd0uMXmBU1A7jJ
+      TcIJD3RYet48QpqaMABMJhxf2nYuly/8ljLf5R2sty9xJjed309Zy4oANz6aUIZ6Q6DmZm75
+      9JFLHx/uWCzfaJXWayVkZdYSkbSN1cEAnXT6TMBpxGIyYTI3YIae4wmjhdpjvyKff2RL4sM9
+      yzfkkbYjn6v4My9uC1ufDkdGP95JvQAEBOB/uav3411d+Ae4+9+sQUv5PvZWRfDCW5u7D34B
+      xjGuq3tIc29RAyMkhJC7f1v/Qt6ez+EftvD6wy4HuDNiScuIxei4xZXq37E3vZr122KZaUJ4
+      GfWGQLPDmfRlGfUuDzd89Wcmhc92a1VG9SGyrj5JauJShy8/wFSmUkddk8OyNTWYAwO7hz5N
+      FP3qJCHPpxDr+uV3YPLzJ2xxHM/OqeTEWbc+mlCEegEwRbJyYSWfZP6JKx0GYOXGmf18XD6X
+      lZHu/BfbTHGRlafWzqL3ofIEoqID+WNOCdes9tOluUfPs3BpuP3p6kLOznmapVN6v5+5rJCS
+      82ZuW+1/W29UUVrZids7J6GE76g5U3wb5/KyyD5RZf8dYKI/C194l8RH/QBoyEtjR/5Vl9dM
+      Z+1P0oi9N4CvJDN5D+WGy2JRSWQkReH6O8DiDdvZFB2MCTAX/pR3P7/c5/q/31XK0V//lrKL
+      jXQY9t8BojYksXFpMH3Fs729nR/++/FvuT2EpygaABfGZQp3fUbbuhSeGWBIoiIJgNq8IwBe
+      TAKgNvWOAYQYQbIH8LD29nbuu+++0f4YY0ZrayuTJ08etvXJHkBoTQIgtCYBEFqTAAitqXct
+      0BgknWB1yR5AaE0CILSm5hBosE6w0UJt4afsP1lLYwf4BS1ifeomop0v+ZROsBiUgj+EGdQd
+      TiO7dQ0/+qclPZ3ggxDf3Qk2F37IAUsMG9Yssj9fdYT0gvtJfWMlPRdlmin88ACWmA2sWdTT
+      CS64P7W7E7yXnafm8vKWmO5O8GeYEu52grP5ScVDJKxb4dAJvsJT7ycw31xG4cXpREc6doJP
+      s6CfTrBcCqE29YZAQ+gEB63axmtxi3uej3icxya343wXTukEi8GpF4AhdIJNzmVfrpce58Ks
+      KJdbo0gnWAxOvWMAdzrB1muUZGVSG5HENnvZt0/SCRb9US8AQ+wEGy3l7NtbRcQLb7E5uL+m
+      mHSCxcDUGwINpRNsVHMo6ypPpiaytN8vv3SCxeDUC8AQOsHNxUVYn1rLrIHuiyWdYDEECp4G
+      hcE6wZWZyezpXfYlKSOJqHt/SydYDE7RALiQTrDwEO8IgBeTAKhNvWMAIUaQ7AE8TDrBw0s6
+      wUIMIwmA0JoEQGhNAiC0pt61QGOQdILVJXsAoTUJgNCamkOgQTrBlroi9h0s4Oyl21ixP//i
+      K/G41nI90gnGoKW2kE/3n6TWXkhm0frUe9cRCe+i4A9hQ+gElxVycXo0kaH++NFB4+l9/Pz0
+      AnZsXeFQTPFUJ7iQDw9YiNmwhkWhfnTdqOJIegH3p77Byj6uCJVLIdSm3hBoCJ3gkGWrWR7m
+      b+/6mvwIWhLJgxYLzrVcD3WCg1ax7bU4Fof6YV9tBI8/Npl250Ky8BLqBcCteYKt3L50htz0
+      3zNl7Qqc/wP2UCfY5TnjeinHL8wiyrmQLLyEegEYwPjx410e8cEUEMSDYeMx13V/eZ0YtJRn
+      84vscq4TTHTyq6we6hfV+hfy0tPJO9fGpIef4dXEyJ7hldFCefYvyC6/DsHRJL+6Gvn+eyf1
+      AuDWNKkm/PzDWBz3LHMqT+DaSvRMJdKg+lAWV59MJbGfEozwHuoFYNBKpJmywhLOm29jbyVa
+      uVFVSmVngMsQyDOVSJqLKbI+xdqB+5jCSyh4FggGrkRauFx6lF//toyLjR0Y+DIxLIoNSRtd
+      CvKeqUTG/l8myXvKew23opIySIqiFzkLpDZFA+BCKpHCQ7wjAF5MAqA29Y4BhBhBsgfwMKlE
+      Di+pRAoxjCQAQmsSAKE1CYDQmpp9gDFGKpHqkj2A0JoEQGhNzSGQypVImSZ1TFHwhzDVK5Ey
+      TepYot4QSPVKpEyTOqaoFwDVK5GO7y7TpHo99Y4BhjhNakNeGjvyr4L/POK2bOXp8P4nKpVp
+      UkV/1AvAEKdJnRGbRkasQcetK1T/bi/p1evZFjvTpaIo06SKgak3BFK+E+zw7jJNqtdTLwCK
+      d4JlmtSxRcHToKByJ1imSR1bFA2AC+kECw/xjgB4MQmA2tQ7BhBiBMkewMOkEzy8pBMsxDCS
+      AAitSQCE1iQAQmvqXQs0BkknWF2yBxBakwAIrak5BBqkE9zDQmXmO+wpn0tSRhKut+eXaVLF
+      YBQMgEFd7i5+07qGl3dt7+kE78zBt7sTfG/JujzyOp/ge9PNfazHzImsAjpjkvkgpacTnF28
+      oLsTnMO+huX8+KM3uzvBGRwLv9sJPsCeqodIeOc5h07wUarfT2C++QRZBZ3EJH9Ayr1pUrMp
+      XtD3NKlCbeoNgYbQCbYvd5n83CZWJSyh78vjZJpUMTj1AjDETnBT8SEurUhgab8Xh8o0qWJw
+      6g2BhtIJbislp3oZiVsnAbcGXeWwd4Lta+VaSRaZtREkbVtNsLv/TqEE9QIwaCfYQsWhr5gf
+      v7WfoY8jD3WCjRbK9+2lKuIF3tosB7/eTL0AzA5n0n+WUf+DmU7DIHsneC2YT1BY/j9cLt/M
+      YcfXbd7ca6bGnk6way2ypxN8dxhk7wRH9+oE965FOswTLFOlej31AmCKZOXCY3ySGep0Z7iP
+      y+eSmGYC02r+LWO1wwsayEvLZ0aa62nQ7k5wcv+d4J05JTx6985wR8+zMOF5+9PdneDUAeYJ
+      TpYv/5igXgAwEf7Mm2zMy+I/Xs926gSHuzXWqKe+5hSHk085P9zdCZ4QFc/G+t387JWcnk7w
+      bPsi5vp6aj5/m825ji+8O09wPTWnDtN7tX3PEyzU5h2FGOkECw/xjgB4MQmA2tT7HUCIESR7
+      AA+TTvDwkk6wEMNI9gAe1i4XCSlNwdOgY48MgYbPcA8pZQgktCYBEFqTAAitSQCE1uQskNCa
+      7AGE1iQAQmsSAKE1CYDQmgRAaE0uhRhJbefI3b2bogsd+EyLYF1KCiv7mV3buF7KJ788yJkb
+      XfiFRvPP2+NZ4F1doG/GjW3UkJfGjvyrDo9E9XmHwAHZxAhpt32Z8a+29OKrtk7b17bmmkO2
+      9945YrvY57JXbMffe892qKbZ9rWt03a1ON32L+lf2NpH9gOPAne2kc321Sc7bQXXvt07yhBo
+      pFgqKG16gviYB/DFxJRH4lg35yx3b0bnpK6UirB1xD0yBRO+PBATz/fbTlNh6WPZscSdbUQz
+      TU1BhIT09dzQSQBGys2bEB5Oz83oTMybF0JTk+tM3kBzM1PDwx3uNxTI/PnfpalpJD7oKHJn
+      G9FE0/jpTP+WbynHACOlsxOfCc73ljOZTJgbnO5FB8CdO3eY4LKsj891zGZgpoc/52hyYxtB
+      K63/m8+OzfmACb+gB3nihz8izs0DJQnASBk3ji6L8xjGMAxC+tiHjx8/HovFAg43Y+zqCv7W
+      u3vlubGNIJKXPs7gJQCs3L5UwWd7Myh+/TW+58ZdumUINFKmToW6OnpGMQY1NWYCA/s4wxEQ
+      wM26Onp2/E1UV39NYGDvRccUd7aRE18mhi1n7bJ26urde0sJwEiZEEV04B/JKbmGFYOW2lyO
+      nl/I0vA+lg2PJurSUXJrWzCwcq0kh5OTlhA1oY9lxxJ3tlHlIT7Mq6KxwwAMOq6UkPtfAcyb
+      695bytWgI8npHPdiNmzfRHT3HXsb8tLYSxJpsfaxrtPvAA+tJCUlDi+7J9g3M9RtZLRQW/gp
+      +0/W0thh4DstglWJLxLr5kaSAAityRBIaE0CILQmARBakwAIrUkAhNYkAEJrEgChNQmA0JoE
+      QGhNAiC0JgEQWpMACK1JAITWJABCaxIAoTUJgNCaBEBoTQIgtCYBEFqTAAitSQCE1iQAQmsS
+      AKE1CYDQmgRAaE0CILQmARBakwAIrUkAhNYkAEJr/w+BVAq6sgEcqAAAAABJRU5ErkJggg==
+    </thumbnail>
+  </thumbnails>
+</workbook>
