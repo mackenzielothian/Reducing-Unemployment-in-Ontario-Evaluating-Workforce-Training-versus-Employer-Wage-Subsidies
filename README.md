@@ -17,6 +17,18 @@ Key stakeholders include unemployed workers, employers facing labour shortages, 
 ## Table of Contents 
 [Read More](background.md)
 
+## Data Sources 
+1. Ontario Unemployment Dataset (ON_Unemployment.csv)
+This dataset tracks the unemployment rate in Ontario over time, providing a time-series view of labour market conditions. It captures fluctuations in unemployment across different periods, allowing for the identification of trends, economic shocks, and recovery patterns. This dataset is essential for understanding the overall problem and evaluating whether policy interventions lead to meaningful changes in unemployment levels.
+2. Job Vacancies Dataset (Job_Vacancies.csv)
+This dataset contains data on the number of job vacancies in Ontario, representing employer demand for labour. It is used to assess whether available jobs align with the number of unemployed individuals. By comparing job vacancies with unemployment rates, this dataset helps identify potential labour market mismatches, particularly whether unemployment is driven by a lack of jobs or a lack of suitable skills among workers.
+3. Education Dataset (Education.csv)
+This dataset examines employment outcomes across different levels of educational attainment. It provides insight into how education and skill levels influence employment opportunities and unemployment risk. This dataset is critical for evaluating the effectiveness of workforce training policies, as it highlights the relationship between skill development and labour market success.
+4. Labour Force Dataset (Labour_Force.csv)
+This dataset measures labour force participation, including the proportion of individuals actively working or seeking employment. It provides context for unemployment trends by showing how many people are engaged in the labour market. This is important for identifying hidden unemployment or changes in workforce participation that may influence overall unemployment rates.
+5. Duration Dataset (Duration.csv)
+This dataset captures the length of time individuals remain unemployed, distinguishing between short-term and long-term unemployment. It helps assess the severity and persistence of unemployment within the labour market. Longer durations of unemployment often indicate structural issues, such as skill mismatches, making this dataset particularly valuable for evaluating the need for workforce training interventions.
+
 ## Casual Loop Diagram 
 <img width="485" height="289" alt="Causal Loop Diagram" src="img/cld.png" />
 
